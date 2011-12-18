@@ -36,10 +36,11 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam
 
-#Temporarily use this prebuilt Superuser.apk
 PRODUCT_COPY_FILES += \
-    vendor/crossbones/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
     vendor/crossbones/prebuilt/common/bin/su:system/bin/su
+BUILD_PREBUILT += \
+    vendor/crossbones/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
+
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
