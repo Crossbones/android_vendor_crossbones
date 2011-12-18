@@ -19,7 +19,7 @@ BUILD_VERSION := alpha-0.0.1
 
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.build.romversion=Crossbones--$(BUILD_VERSION)
+    ro.build.romversion=Crossbones-$(PRODUCT_DEVICE)-$(BUILD_VERSION)
 
 PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Crossbones for your Nexus S 4G\nFollow @Xbones_dev for the latest Crossbones updates\n------------------------------------------------\n"
 
