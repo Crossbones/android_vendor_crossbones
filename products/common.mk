@@ -18,8 +18,8 @@ PRODUCT_COPY_FILES += \
 
 # Required packages
 #PRODUCT_PACKAGES += \
-    LatinIME 
-#    Superuser \
+    LatinIME \
+    Superuser
 #    su
 
 # Optional packages
@@ -38,9 +38,6 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/crossbones/prebuilt/common/bin/su:system/bin/su
-
-BUILD_PREBUILT += \
-    vendor/crossbones/prebuilt/common/app/Superuser.apk
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
