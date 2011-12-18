@@ -39,9 +39,8 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     vendor/crossbones/prebuilt/common/bin/su:system/bin/su
 
-PRODUCT_COPY_FILES += \
-    vendor/crossbones/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
-
+BUILD_PREBUILT += \
+    vendor/crossbones/prebuilt/common/app/Superuser.apk
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
