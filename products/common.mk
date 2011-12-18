@@ -59,7 +59,8 @@ PRODUCT_COPY_FILES += \
 
 #Temporarily use this prebuilt Superuser.apk
 PRODUCT_COPY_FILES += \
-    vendor/crossbones/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
+    vendor/crossbones/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk \
+    vendor/crossbones/prebuilt/common/bin/su:system/bin/su
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
