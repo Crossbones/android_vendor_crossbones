@@ -38,7 +38,8 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     vendor/crossbones/prebuilt/common/bin/su:system/bin/su
-BUILD_PREBUILT += \
+
+PRODUCT_COPY_FILES += \
     vendor/crossbones/prebuilt/common/app/Superuser.apk:system/app/Superuser.apk
 
 
