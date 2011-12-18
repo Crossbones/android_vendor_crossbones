@@ -17,11 +17,10 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/crespo4g
 # Set up the product codename, build version & MOTD.
 BUILD_VERSION := alpha-0.0.1
 
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.romversion=Crossbones-$(PRODUCT_DEVICE)-$(BUILD_VERSION)
 
-PRODUCT_MOTD :="\n\n\n--------------------MESSAGE---------------------\nThank you for choosing Crossbones for your Nexus S 4G\nFollow @Xbones_dev for the latest Crossbones updates\n------------------------------------------------\n"
+PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\n                               Crossbones for your Nexus S 4G\n                         Follow @Xbones_dev for the latest updates\n                    \n------------------------------------------------\n"
 
 #
 # Copy crespo specific prebuilt files
