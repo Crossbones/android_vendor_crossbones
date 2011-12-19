@@ -15,7 +15,7 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/crespo4g
 
 # Set up the product codename, build version & MOTD.
-BUILD_VERSION := alpha-0.0.1
+BUILD_VERSION := 0.0.1
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.build.romversion=Crossbones-$(PRODUCT_DEVICE)-$(BUILD_VERSION)
