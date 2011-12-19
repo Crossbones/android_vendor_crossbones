@@ -17,10 +17,10 @@ PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # Required packages
-#PRODUCT_PACKAGES += \
+PRODUCT_PACKAGES += \
     LatinIME \
-    Superuser
-#    su
+    Superuser \
+    su
 
 # Optional packages
 PRODUCT_PACKAGES += \
@@ -36,8 +36,8 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam
 
-PRODUCT_COPY_FILES += \
-    vendor/crossbones/prebuilt/common/bin/su:system/bin/su
+#PRODUCT_COPY_FILES += \
+#    vendor/crossbones/prebuilt/common/bin/su:system/bin/su
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
