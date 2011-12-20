@@ -51,7 +51,7 @@
 
     <!-- Maximum length for message text. Use a value of -1
          to indicate default value -->
-    <int name="maxMessageTextSize">160</int>
+    <int name="maxMessageTextSize">-1</int>
 
     <!-- User-Agent parameter used in MMS http request -->
     <string name="userAgent">SPH-D720/Android-mms</string>
