@@ -1,6 +1,6 @@
 # Common ROM version
 ROM_VERSION_STABLE = 0
-ROM_VERSION_BETA_ = 0
+ROM_VERSION_BETA = 0
 ROM_VERSION_ALPHA = 2
 
 #Common build.prop overrides
