@@ -3,5 +3,7 @@ ifeq ($(TARGET_PRODUCT),crossbones_crespo)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/crossbones_crespo.mk
 else ifeq ($(TARGET_PRODUCT),crossbones_crespo4g)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/crossbones_crespo4g.mk
+else ifeq ($(TARGET_PRODUCT),crossbones_toro)
+  PRODUCT_MAKEFILES := $(LOCAL_DIR)/crossbones_toro.mk
 endif
 
