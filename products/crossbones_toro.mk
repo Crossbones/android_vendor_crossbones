@@ -12,7 +12,9 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.0.3/IML74K/239410:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
 
 # Crossbones common version
-$(call inherit-product, vendor/crossbones/products/version.mk)
+-include vendor/crossbones/products/version.mk
+
+PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones $(BUILD_VERSION) for your $(PRODUCT_MODEL)\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
 
 # Extra Crespo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/toro
