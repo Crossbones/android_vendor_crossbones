@@ -36,9 +36,6 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam
 
-#PRODUCT_COPY_FILES += \
-#    vendor/crossbones/prebuilt/common/bin/su:system/bin/su
-
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
     persist.sys.strictmode.disable=true
