@@ -12,7 +12,8 @@ PRODUCT_MANUFACTURER := samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_FINGERPRINT=google/sojus/crespo4g:4.0.3/IML74K/239410:user/release-keys PRIVATE_BUILD_DESC="sojus-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
 
 # Crossbones common version
-$(call inherit-product, vendor/crossbones/products/version.mk)
+#$(call inherit-product, vendor/crossbones/products/version.mk)
+-include vendor/crossbones/products/version.mk
 
 # Extra Crespo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/crespo4g
