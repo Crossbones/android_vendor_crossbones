@@ -17,7 +17,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_FINGERPRINT=google/soju
 # Extra Crespo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/crespo4g
 
-PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones for your Nexus S 4G\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
+PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones $(BUILD_VERSION) for your Nexus S 4G \nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
 
 # Copy crespo specific prebuilt files
 PRODUCT_COPY_FILES +=  \

@@ -26,7 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.ril.oem.nosim.ecclist=911,112,999,000,08,118,120,122,110,119,995 \
     ro.ril.emc.mode=2
 
-PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones for your Nexus S\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
+PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones $(BUILD_VERSION) for your Nexus S\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
 
 #
 # Copy crespo specific prebuilt files
