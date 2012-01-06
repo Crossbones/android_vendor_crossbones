@@ -9,7 +9,7 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := toro
 PRODUCT_MODEL := Galaxy Nexus CDMA
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.0.3/IML74K/239410:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT="google/mysid/toro:4.0.3/IML74K/239410:user/release-keys" PRIVATE_BUILD_DESC="mysid-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
 
 # Crossbones common version
 -include vendor/crossbones/products/version.mk

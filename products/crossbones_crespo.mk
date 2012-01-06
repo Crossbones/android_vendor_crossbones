@@ -12,7 +12,7 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := crespo
 PRODUCT_MODEL := Nexus S
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_FINGERPRINT=google/sojus/crespo:4.0.3/IML74K/239410:user/release-keys PRIVATE_BUILD_DESC="sojus-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_FINGERPRINT="google/sojus/crespo:4.0.3/IML74K/239410:user/release-keys" PRIVATE_BUILD_DESC="sojus-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
 
 # Crossbones common version
 -include vendor/crossbones/products/version.mk
@@ -24,7 +24,7 @@ PRODUCT_PACKAGES += \
     NSTools
 
 # Extra Crespo overlay
-PRODUCT_PACKAGE_OVERLAYS += vendor/evervolv/overlay/crespo
+PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/crespo
 
 # Extra RIL settings
 PRODUCT_PROPERTY_OVERRIDES += \
