@@ -6,7 +6,7 @@ $(call inherit-product, vendor/crossbones/products/common.mk)
 #
 PRODUCT_NAME := crossbones_maguro
 PRODUCT_BRAND := google
-PRODUCT_DEVICE := toro
+PRODUCT_DEVICE := maguro
 PRODUCT_MODEL := Galaxy Nexus GSM
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yakju/maguro:4.0.3/IML74K/239410:user/release-keys" PRIVATE_BUILD_DESC="yakju-user 4.0.3 IML74K 239410 release-keys" BUILD_NUMBER=239410
