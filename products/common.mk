@@ -34,7 +34,8 @@ PRODUCT_PACKAGES += \
     LiveWallpapers \
     LiveWallpapersPicker \
     VisualizationWallpapers \
-    PhaseBeam
+    PhaseBeam \
+    Welcome
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
