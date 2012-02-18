@@ -10,5 +10,9 @@ PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=IML74K BUILD_DISPLAY_ID=IML74K USER=and
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=Crossbones-$(BUILD_VERSION)-$(PRODUCT_DEVICE)-$(BUILD_ID) \
-    ro.developerid=crossbones
+    ro.developerid=crossbones \
+    ro.goo.developerid=crossbones \
+    ro.goo.rom=Crossbones \
+    ro.goo.version=$(BUILD_VERSION) \
+    ro.goo.board=$(PRODUCT_DEVICE)
 
