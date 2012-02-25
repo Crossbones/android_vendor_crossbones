@@ -36,7 +36,8 @@ PRODUCT_PACKAGES += \
     VisualizationWallpapers \
     PhaseBeam \
     Welcome \
-    GooManager
+    GooManager \
+    FileManager
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
