@@ -14,6 +14,5 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.rommanager.developerid=crossbones \
     ro.goo.developerid=crossbones \
     ro.goo.rom=Crossbones \
-    ro.goo.version=$(shell date +%s) \
-    ro.goo.board=$(PRODUCT_DEVICE)
+    ro.goo.version=$(shell date +%s)
 
