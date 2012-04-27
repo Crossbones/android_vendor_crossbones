@@ -1,4 +1,4 @@
-$(call inherit-product, device/samsung/torospr/full_toro.mk)
+$(call inherit-product, device/samsung/torospr/full_torospr.mk)
 $(call inherit-product, vendor/crossbones/products/common.mk)
 
 #
