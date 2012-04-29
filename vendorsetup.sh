@@ -1,7 +1,8 @@
 add_lunch_combo crossbones_generic-eng
 add_lunch_combo crossbones_crespo-eng
 add_lunch_combo crossbones_crespo4g-eng
-add_lunch_combo crossbones_toro-eng
-add_lunch_combo crossbones_torospr-eng
 add_lunch_combo crossbones_maguro-eng
+add_lunch_combo crossbones_toro-eng
+add_lunch_combo crossbones_toroplus-eng
+add_lunch_combo crossbones_torospr-eng
 
