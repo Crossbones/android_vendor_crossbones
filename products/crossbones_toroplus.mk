@@ -9,7 +9,7 @@ PRODUCT_BRAND := samsung
 PRODUCT_DEVICE := toroplus
 PRODUCT_MODEL := Sprint Galaxy Nexus CDMA
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_FINGERPRINT=samsung/mysidspr/torospr:4.0.4/IMM76I/330937:user/release-keys PRIVATE_BUILD_DESC="mysidspr-user 4.0.4 IMM76I 330937 release-keys" BUILD_NUMBER=330937
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_FINGERPRINT=samsung/mysidspr/torospr:4.0.4/IMM76L/345519:user/release-keys PRIVATE_BUILD_DESC="mysidspr-user 4.0.4 IMM76L 345519 release-keys" BUILD_NUMBER=345519
 
 # Crossbones common version
 -include vendor/crossbones/products/version.mk
