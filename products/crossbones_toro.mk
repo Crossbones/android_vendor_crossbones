@@ -7,9 +7,9 @@ $(call inherit-product, vendor/crossbones/products/common.mk)
 PRODUCT_NAME := crossbones_toro
 PRODUCT_BRAND := google
 PRODUCT_DEVICE := toro
-PRODUCT_MODEL := Galaxy Nexus CDMA
+PRODUCT_MODEL := Verizon Galaxy Nexus CDMA
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.0.4/IMM76L/345519:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.0.4 IMM76L 345519 release-keys" BUILD_NUMBER=345519
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysid/toro:4.1.1/JRO03C/398337:user/release-keys PRIVATE_BUILD_DESC="mysid-user 4.1.1 JRO03C 398337 release-keys"
 
 # Crossbones common version
 -include vendor/crossbones/products/version.mk
