@@ -11,7 +11,5 @@ else ifeq ($(TARGET_PRODUCT),crossbones_toro)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/crossbones_toro.mk
 else ifeq ($(TARGET_PRODUCT),crossbones_toroplus)
   PRODUCT_MAKEFILES := $(LOCAL_DIR)/crossbones_toroplus.mk
-else ifeq ($(TARGET_PRODUCT),crossbones_torospr)
-  PRODUCT_MAKEFILES := $(LOCAL_DIR)/crossbones_torospr.mk
 endif
 
