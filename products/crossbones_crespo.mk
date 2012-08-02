@@ -12,7 +12,7 @@ PRODUCT_BRAND := google
 PRODUCT_DEVICE := crespo
 PRODUCT_MODEL := Nexus S
 PRODUCT_MANUFACTURER := samsung
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_FINGERPRINT=google/sojus/crespo:4.0.4/IMM76L/345519:user/release-keys PRIVATE_BUILD_DESC="sojus-user 4.0.4 IMM76L 345519 release-keys" BUILD_NUMBER=345519
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=sojus BUILD_FINGERPRINT=google/sojus/crespo:4.1.1/JRO03H/398337:user/release-keys PRIVATE_BUILD_DESC="sojus-user 4.1.1 JRO03H 398337 release-keys"
 
 # Crossbones common version
 -include vendor/crossbones/products/version.mk
