@@ -16,11 +16,14 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
+# su binary
+PRODUCT_COPY_FILES +=  \
+    vendor/crossbones/proprietary/supersu/su:system/xbin/su
+
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME \
-    Superuser \
-    su
+    Superuser
 
 # Optional packages
 PRODUCT_PACKAGES += \
