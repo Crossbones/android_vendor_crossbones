@@ -30,4 +30,4 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Bootanimation
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/hdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/crossbones/prebuilt/bootanimation/bootanimation-hdpi.zip:system/media/bootanimation.zip

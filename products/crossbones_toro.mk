@@ -21,4 +21,4 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/toro
 
 # Bootanimation
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/xhdpi/media/bootanimation.zip:system/media/bootanimation.zip
+    vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip
