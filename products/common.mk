@@ -18,12 +18,12 @@ PRODUCT_COPY_FILES += \
 
 # su binary
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/proprietary/supersu/su:system/xbin/su
+    vendor/crossbones/prebuilt/xbin/su:system/xbin/su
 
 # Required packages
 PRODUCT_PACKAGES += \
     LatinIME \
-    Superuser
+    SuperSU
 
 # Optional packages
 PRODUCT_PACKAGES += \
