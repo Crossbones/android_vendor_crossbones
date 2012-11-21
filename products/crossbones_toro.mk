@@ -14,7 +14,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT=google/mysi
 # Crossbones common version
 -include vendor/crossbones/products/version.mk
 
-PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones $(BUILD_VERSION) for your $(PRODUCT_MODEL)\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
+PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones $(BUILD_VERSION) for your Verizon Galaxy Nexus\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
 
 # Extra Crespo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/toro
