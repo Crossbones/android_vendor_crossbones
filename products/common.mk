@@ -18,7 +18,8 @@ PRODUCT_COPY_FILES += \
 
 # su binary
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/xbin/su:system/xbin/su
+    vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
+    vendor/crossbones/prebuilt/xbin/busybox:system/xbin/busybox
 
 # Required packages
 PRODUCT_PACKAGES += \
