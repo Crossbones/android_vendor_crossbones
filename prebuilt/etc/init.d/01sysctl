@@ -1,7 +1,4 @@
 #!/system/bin/sh
-#
-# read and set values from sysctl.conf
 
-if [ -e /system/etc/sysctl.conf ]; then
-    sysctl -p /system/etc/sysctl.conf
-fi
+# Set sysctl
+/system/bin/set_sysctl 15 /system/etc/sysctl.conf &
