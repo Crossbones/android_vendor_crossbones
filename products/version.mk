@@ -16,3 +16,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.rom=Crossbones \
     ro.goo.version=$(shell date +%s)
 
+# Message displayed while flashing ROM
+PRODUCT_MOTD :="\n+-------------Crossbones ROM $(BUILD_VERSION)-------------+\n+          http://xbones.org | support@xbones.org         +\n+----------------------------------------------+\n"
+
+

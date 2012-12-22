@@ -11,10 +11,8 @@ PRODUCT_DEVICE := generic
 PRODUCT_MODEL := Generic Device
 PRODUCT_MANUFACTURER := Crossbones
 
-# Crossbones common version
+# Crossbones common version properties
 -include vendor/crossbones/products/version.mk
-
-PRODUCT_MOTD :="\n\n\n-----------------CROSSBONES---------------------\nCrossbones $(BUILD_VERSION) for your Generic Device\nFollow @Xbones_dev for the latest updates\n------------------------------------------------\n"
 
 #
 # Move dalvik cache to data partition where there is more room to solve startup problems
