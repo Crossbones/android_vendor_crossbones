@@ -1,5 +1,4 @@
 #!/system/bin/sh
 
-bb=/system/xbin/busybox
 export PATH=/sbin:/system/sbin:/system/bin:/system/xbin
-/system/bin/logwrapper $bb run-parts /system/etc/init.d 
+/system/bin/logwrapper /system/xbin/run-parts /system/etc/init.d
