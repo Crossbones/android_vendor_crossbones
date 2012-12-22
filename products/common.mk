@@ -16,11 +16,13 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_COPY_FILES += \
     frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
-# su binary
+# Binaries & scripts
 PRODUCT_COPY_FILES +=  \
+    vendor/crossbones/prebuilt/bin/sysinit:system/bin/sysinit \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/busybox:system/xbin/busybox \
-    vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
+    vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl \
+    vendor/crossbones/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
 
 # Required packages
 PRODUCT_PACKAGES += \
