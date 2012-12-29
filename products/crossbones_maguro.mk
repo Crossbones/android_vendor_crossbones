@@ -17,6 +17,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=yakju BUILD_FINGERPRINT="google/yak
 # Extra Crespo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/maguro
 
+# Optional packages
+PRODUCT_PACKAGES += \
+    Torch
+
 # Bootanimation
 PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip

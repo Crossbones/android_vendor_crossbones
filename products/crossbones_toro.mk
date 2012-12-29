@@ -17,6 +17,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysid BUILD_FINGERPRINT="google/mys
 # Extra Crespo overlay
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/toro
 
+# Optional packages
+PRODUCT_PACKAGES += \
+    Torch
+
 # Bootanimation
 PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip

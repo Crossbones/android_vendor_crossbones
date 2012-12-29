@@ -44,8 +44,7 @@ PRODUCT_PACKAGES += \
     PhaseBeam \
     Welcome \
     GooManager \
-    FileManager \
-    Torch
+    FileManager
 
 # Disable strict mode
 ADDITIONAL_DEFAULT_PROPERTIES += \
