@@ -9,9 +9,9 @@ $(call inherit-product, vendor/crossbones/config/gsm.mk)
 # Inherit torch settings
 $(call inherit-product, vendor/crossbones/config/common_ledflash.mk)
 
-# Bootanimation
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip
+    vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip \
+    device/samsung/maguro/vold.fstab:system/etc/vold.fstab
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP

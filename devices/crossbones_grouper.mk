@@ -5,9 +5,9 @@ $(call inherit-product, device/asus/grouper/full_grouper.mk)
 # Inherit common settings
 $(call inherit-product, vendor/crossbones/config/common_full_tablet_wifionly.mk)
 
-# Bootanimation
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/bootanimation/bootanimation-grouper.zip:system/media/bootanimation.zip
+    vendor/crossbones/prebuilt/bootanimation/bootanimation-grouper.zip:system/media/bootanimation.zip  \
+    device/asus/grouper/vold.fstab:system/etc/vold.fstab
 
 PRODUCT_COPY_FILES += \
     vendor/crossbones/prebuilt/app/CameraLauncher.apk:data/app/CameraLauncher.apk
