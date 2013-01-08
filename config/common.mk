@@ -1,5 +1,3 @@
-PRODUCT_BRAND ?= crossbones
-
 PRODUCT_BUILD_PROP_OVERRIDES += BUILD_UTC_DATE=0
 
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -14,7 +12,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
-    frameworks/base/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
+    frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
 
 # Prebuilt binaries & scripts
 PRODUCT_COPY_FILES +=  \
@@ -26,6 +24,7 @@ PRODUCT_COPY_FILES +=  \
 
 # Required packages
 PRODUCT_PACKAGES += \
+    Camera \
     LatinIME \
     SuperSU
 
@@ -46,7 +45,24 @@ PRODUCT_PACKAGES += \
     GooManager \
     FileManager
 
-# Disable strict mode
-ADDITIONAL_DEFAULT_PROPERTIES += \
-    persist.sys.strictmode.disable=true
+#Common overlays
+PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/common
+
+# Common ROM version
+ROM_VERSION_MAJOR = 2
+ROM_VERSION_MINOR = 2
+ROM_VERSION_MAINTENANCE = 0
+
+BUILD_VERSION = $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.modversion=Crossbones-$(BUILD_VERSION)-$(PRODUCT_DEVICE)-$(BUILD_ID) \
+    ro.goo.developerid=crossbones \
+    ro.goo.rom=Crossbones \
+    ro.goo.version=$(shell date +%s)
+
+# Message displayed while flashing ROM
+PRODUCT_MOTD :="\n+-------------Crossbones ROM $(BUILD_VERSION)-------------+\n|--| http://xbones.org | support@xbones.org |--|\n|--| Follow: @Xbones_dev for news & updates |--|\n+----------------------------------------------+\n"
+
+
 

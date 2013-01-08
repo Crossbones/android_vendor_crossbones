@@ -1,7 +1,6 @@
-add_lunch_combo crossbones_generic-eng
-add_lunch_combo crossbones_grouper-eng
-add_lunch_combo crossbones_maguro-eng
-add_lunch_combo crossbones_toro-eng
-add_lunch_combo crossbones_toroplus-eng
+add_lunch_combo crossbones_grouper-userdebug
+add_lunch_combo crossbones_maguro-userdebug
+add_lunch_combo crossbones_toro-userdebug
+add_lunch_combo crossbones_toroplus-userdebug
 
 
