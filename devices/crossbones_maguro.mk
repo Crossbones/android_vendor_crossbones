@@ -4,8 +4,6 @@
 $(call inherit-product, device/samsung/maguro/full_maguro.mk)
 # Inherit common settings
 $(call inherit-product, vendor/crossbones/config/common_full_phone.mk)
-# Inherit Crossbones version
-$(call inherit-product, vendor/crossbones/config/version.mk)
 # Inherit GSM common settings
 $(call inherit-product, vendor/crossbones/config/gsm.mk)
 # Inherit torch settings
@@ -27,3 +25,5 @@ PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
+# Inherit Crossbones version
+$(call inherit-product, vendor/crossbones/config/version.mk)

@@ -4,8 +4,6 @@
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 # Inherit common settings
 $(call inherit-product, vendor/crossbones/config/common_full_phone.mk)
-# Inherit Crossbones version
-$(call inherit-product, vendor/crossbones/config/version.mk)
 # Inherit CDMA common settings
 $(call inherit-product, vendor/crossbones/config/cdma.mk)
 # Inherit torch settings
@@ -26,4 +24,7 @@ PRODUCT_BRAND := google
 PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := samsung
 PRODUCT_RESTRICT_VENDOR_FILES := false
+
+# Inherit Crossbones version
+$(call inherit-product, vendor/crossbones/config/version.mk)
 
