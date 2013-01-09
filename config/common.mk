@@ -18,15 +18,16 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/crossbones/prebuilt/bin/set_sysctl:system/bin/set_sysctl \
-    vendor/crossbones/prebuilt/xbin/bb/busybox:system/xbin/bb/busybox \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
 
 # Required packages
 PRODUCT_PACKAGES += \
     Camera \
+    Development \
     LatinIME \
-    SuperSU
+    SuperSU \
+    busybox
 
 # Optional packages
 PRODUCT_PACKAGES += \
