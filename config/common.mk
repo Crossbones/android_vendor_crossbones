@@ -49,6 +49,19 @@ PRODUCT_PACKAGES += \
 #Common overlays
 PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/common
 
+# Common ROM version
+ROM_VERSION_MAJOR = 2
+ROM_VERSION_MINOR = 2
+ROM_VERSION_MAINTENANCE = 0
+
+BUILD_VERSION = $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
+
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.modversion=Crossbones-$(BUILD_VERSION)-$(PRODUCT_DEVICE)-$(BUILD_ID) \
+    ro.goo.developerid=crossbones \
+    ro.goo.rom=Crossbones \
+    ro.goo.version=$(shell date +%s)
+
 # Message displayed while flashing ROM
 PRODUCT_MOTD :="\n+-------------Crossbones ROM $(BUILD_VERSION)-------------+\n|--| http://xbones.org | support@xbones.org |--|\n|--| Follow: @Xbones_dev for news & updates |--|\n+----------------------------------------------+\n"
 

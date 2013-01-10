@@ -1,15 +1,22 @@
 # Common ROM version
-ROM_VERSION_MAJOR = 2
-ROM_VERSION_MINOR = 2
-ROM_VERSION_MAINTENANCE = 0
+ROM_VERSION_STABLE = 2
+ROM_VERSION_BETA = 2
+ROM_VERSION_ALPHA = 0
 
-PRODUCT_BUILD_PROP_OVERRIDES += BUILD_DISPLAY_ID=JOP40D
+BUILD_VERSION = $(ROM_VERSION_STABLE).$(ROM_VERSION_BETA).$(ROM_VERSION_ALPHA)
 
-BUILD_VERSION = $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
+#Common build.prop overrides
+PRODUCT_BUILD_PROP_OVERRIDES += BUILD_ID=JOP40D BUILD_DISPLAY_ID=JOP40D  BUILD_NUMBER=533553 USER=android-build
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.modversion=Crossbones-$(BUILD_VERSION)-$(PRODUCT_DEVICE)-$(BUILD_ID) \
+    ro.romversion=$(BUILD_VERSION) \
+    ro.rommanager.developerid=crossbones \
     ro.goo.developerid=crossbones \
     ro.goo.rom=Crossbones \
     ro.goo.version=$(shell date +%s)
+
+# Message displayed while flashing ROM
+PRODUCT_MOTD :="\n+-------------Crossbones ROM $(BUILD_VERSION)-------------+\n|--| http://xbones.org | support@xbones.org |--|\n|--| Follow: @Xbones_dev for news & updates |--|\n+----------------------------------------------+\n"
+
 

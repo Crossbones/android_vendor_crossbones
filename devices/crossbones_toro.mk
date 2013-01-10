@@ -4,8 +4,6 @@
 $(call inherit-product, device/samsung/toro/full_toro.mk)
 # Inherit common settings
 $(call inherit-product, vendor/crossbones/config/common_full_phone.mk)
-# Inherit Crossbones version
-$(call inherit-product, vendor/crossbones/config/version.mk)
 # Inherit torch settings
 $(call inherit-product, vendor/crossbones/config/common_ledflash.mk)
 
