@@ -57,7 +57,8 @@ ROM_VERSION_MAINTENANCE = 0
 BUILD_VERSION = $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.modversion=Crossbones-$(BUILD_VERSION)-$(BUILD_ID) \
+    ro.modversion=Crossbones-$(BUILD_VERSION) \
+    ro.romversion=$(BUILD_VERSION) \
     ro.goo.developerid=crossbones \
     ro.goo.rom=Crossbones \
     ro.goo.version=$(shell date +%s)
