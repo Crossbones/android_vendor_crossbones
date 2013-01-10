@@ -16,8 +16,9 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt binaries & scripts
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/crossbones/prebuilt/bin/set_sysctl:system/bin/set_sysctl \
+    vendor/crossbones/prebuilt/bin/sysinit:system/bin/sysinit \
+    vendor/crossbones/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
 
