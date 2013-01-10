@@ -4,6 +4,8 @@
 $(call inherit-product, device/asus/grouper/full_grouper.mk)
 # Inherit common settings
 $(call inherit-product, vendor/crossbones/config/common_full_tablet_wifionly.mk)
+# Inherit Crossbones version
+$(call inherit-product, vendor/crossbones/config/version.mk)
 
 PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/bootanimation/bootanimation-grouper.zip:system/media/bootanimation.zip  \
@@ -24,5 +26,3 @@ PRODUCT_MODEL := Nexus 7
 PRODUCT_MANUFACTURER := Asus
 PRODUCT_RESTRICT_VENDOR_FILES := false
 
-# Inherit Crossbones version
-$(call inherit-product, vendor/crossbones/config/version.mk)
