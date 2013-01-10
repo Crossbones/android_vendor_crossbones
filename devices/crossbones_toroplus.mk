@@ -16,7 +16,7 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_FINGERPRINT="samsung/mysidspr/torospr:4.2.1/JOP40D/533553:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.1 JOP40D 533553 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=mysidspr BUILD_DISPLAY_ID=JOP40D BUILD_FINGERPRINT="samsung/mysidspr/torospr:4.2.1/JOP40D/533553:user/release-keys" PRIVATE_BUILD_DESC="mysidspr-user 4.2.1 JOP40D 533553 release-keys"
 
 PRODUCT_NAME := crossbones_toroplus
 PRODUCT_DEVICE := toroplus
