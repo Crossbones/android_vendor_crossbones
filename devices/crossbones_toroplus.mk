@@ -4,6 +4,8 @@
 $(call inherit-product, device/samsung/toroplus/full_toroplus.mk)
 # Inherit common settings
 $(call inherit-product, vendor/crossbones/config/common_full_phone.mk)
+# Inherit CDMA common settings
+$(call inherit-product, vendor/crossbones/config/cdma.mk)
 # Inherit torch settings
 $(call inherit-product, vendor/crossbones/config/common_ledflash.mk)
 
