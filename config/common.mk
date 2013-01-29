@@ -10,6 +10,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.com.android.dateformat=MM-dd-yyyy \
     ro.com.android.dataroaming=false
 
+# Default ringtone
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Playa.ogg \
+    ro.config.notification_sound=Tejat.ogg \
+    ro.config.alarm_alert=Plutonium.ogg
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
