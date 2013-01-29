@@ -26,7 +26,7 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PACKAGES += \
     Camera \
     LatinIME \
-    SuperSU \
+    Superuser \
     busybox
 
 # Optional packages

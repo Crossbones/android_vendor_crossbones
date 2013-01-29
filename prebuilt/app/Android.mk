@@ -12,7 +12,7 @@
 
 LOCAL_PATH:= $(call my-dir)
 include $(CLEAR_VARS)
-LOCAL_MODULE := SuperSU
+LOCAL_MODULE := Superuser
 LOCAL_SRC_FILES := $(LOCAL_MODULE).apk
 
 LOCAL_MODULE_CLASS := APPS
