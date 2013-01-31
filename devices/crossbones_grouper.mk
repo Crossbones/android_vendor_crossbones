@@ -9,9 +9,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/bootanimation/bootanimation-tvdpi.zip:system/media/bootanimation.zip  \
     device/asus/grouper/vold.fstab:system/etc/vold.fstab
 
-PRODUCT_PACKAGES += \
-    CameraLauncher \
-
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
