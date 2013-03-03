@@ -12,7 +12,7 @@ PRODUCT_COPY_FILES +=  \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
 
-PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_DISPLAY_ID=JDQ39 BUILD_FINGERPRINT="google/nakasi/grouper:4.2.2/JDQ39/533553:user/release-keys" PRIVATE_BUILD_DESC="nakasi-user 4.2.2 JDQ39 533553 release-keys"
+PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=nakasi BUILD_DISPLAY_ID=JDQ39 BUILD_FINGERPRINT="google/nakasi/grouper:4.2.2/JDQ39/573038:user/release-keys" PRIVATE_BUILD_DESC="nakasi-user 4.2.2 JDQ39 573038 release-keys"
 
 PRODUCT_NAME := crossbones_grouper
 PRODUCT_DEVICE := grouper

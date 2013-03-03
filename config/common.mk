@@ -16,6 +16,11 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.config.notification_sound=Tejat.ogg \
     ro.config.alarm_alert=Plutonium.ogg
 
+# Bring in camera effects
+PRODUCT_COPY_FILES +=  \
+    vendor/crossbones/prebuilt/media/LMprec_508.emd:system/media/LMprec_508.emd \
+    vendor/crossbones/prebuilt/media/PFFprec_600.emd:system/media/PFFprec_600.emd
+
 # Enable SIP+VoIP on all targets
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.sip.voip.xml:system/etc/permissions/android.software.sip.voip.xml
@@ -59,7 +64,7 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/common
 # Common ROM version
 ROM_VERSION_MAJOR = 2
 ROM_VERSION_MINOR = 3
-ROM_VERSION_MAINTENANCE = 0
+ROM_VERSION_MAINTENANCE = 1
 
 BUILD_VERSION = $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
 
