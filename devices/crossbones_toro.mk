@@ -8,8 +8,7 @@ $(call inherit-product, vendor/crossbones/config/common_full_phone.mk)
 $(call inherit-product, vendor/crossbones/config/common_ledflash.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip \
-    device/samsung/toro/vold.fstab:system/etc/vold.fstab
+    vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP

@@ -6,8 +6,7 @@ $(call inherit-product, device/asus/grouper/full_grouper.mk)
 $(call inherit-product, vendor/crossbones/config/common_full_tablet_wifionly.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/bootanimation/bootanimation-tvdpi.zip:system/media/bootanimation.zip  \
-    device/asus/grouper/vold.fstab:system/etc/vold.fstab
+    vendor/crossbones/prebuilt/bootanimation/bootanimation-tvdpi.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
