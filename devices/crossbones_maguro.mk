@@ -10,7 +10,7 @@ $(call inherit-product, vendor/crossbones/config/gsm.mk)
 $(call inherit-product, vendor/crossbones/config/common_ledflash.mk)
 
 PRODUCT_COPY_FILES +=  \
-    vendor/crossbones/prebuilt/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip
+    vendor/crossbones/prebuilt/media/bootanimation/bootanimation-xhdpi.zip:system/media/bootanimation.zip
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.camera.res=5MP
