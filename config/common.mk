@@ -27,9 +27,45 @@ PRODUCT_COPY_FILES += \
 
 # Prebuilt binaries & scripts
 PRODUCT_COPY_FILES +=  \
+    vendor/crossbones/prebuilt/bin/basimage_ibeats.bin:system/bin/basimage_ibeats.bin \
+    vendor/crossbones/prebuilt/bin/basimage_ibeats_solo.bin:system/bin/basimage_ibeats_solo.bin \
+    vendor/crossbones/prebuilt/bin/basimage_ibeats_solo_x.bin:system/bin/basimage_ibeats_solo_x.bin \
+    vendor/crossbones/prebuilt/bin/basimage_ibeats_x.bin:system/bin/basimage_ibeats_x.bin \
+    vendor/crossbones/prebuilt/bin/dynimage_ibeats.bin:system/bin/dynimage_ibeats.bin \
+    vendor/crossbones/prebuilt/bin/dynimage_ibeats_solo.bin:system/bin/dynimage_ibeats_solo.bin \
+    vendor/crossbones/prebuilt/bin/dynimage_ibeats_solo_x.bin:system/bin/dynimage_ibeats_solo_x.bin \
+    vendor/crossbones/prebuilt/bin/dynimage_ibeats_x.bin:system/bin/dynimage_ibeats_x.bin \
+    vendor/crossbones/prebuilt/bin/peqimage_ibeats.bin:system/bin/peqimage_ibeats.bin \
+    vendor/crossbones/prebuilt/bin/peqimage_ibeats_solo.bin:system/bin/peqimage_ibeats_solo.bin \
+    vendor/crossbones/prebuilt/bin/peqimage_ibeats_solo_x.bin:system/bin/peqimage_ibeats_solo_x.bin \
+    vendor/crossbones/prebuilt/bin/peqimage_ibeats_x.bin:system/bin/peqimage_ibeats_x.bin \
     vendor/crossbones/prebuilt/bin/set_sysctl:system/bin/set_sysctl \
     vendor/crossbones/prebuilt/bin/sysinit:system/bin/sysinit \
+    vendor/crossbones/prebuilt/etc/audio/aeqcoe.txt:system/etc/audio/aeqcoe.txt \
+    vendor/crossbones/prebuilt/etc/audio/eqfilter.txt:system/etc/audio/eqfilter.txt \
+    vendor/crossbones/prebuilt/etc/audio/lmfilter.txt:system/etc/audio/lmfilter.txt \
+    vendor/crossbones/prebuilt/etc/audio/situation.txt:system/etc/audio/situation.txt \
+    vendor/crossbones/prebuilt/etc/audio/soundbooster.txt:system/etc/audio/soundbooster.txt \
+    vendor/crossbones/prebuilt/etc/audio/stream_earpiece.txt:system/etc/audio/stream_earpiece.txt \
+    vendor/crossbones/prebuilt/etc/audio/stream_headset.txt:system/etc/audio/stream_headset.txt \
+    vendor/crossbones/prebuilt/etc/audio/stream_speaker.txt:system/etc/audio/stream_speaker.txt \
     vendor/crossbones/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/crossbones/prebuilt/etc/AudioBTID.csv:system/etc/AudioBTID.csv \
+    vendor/crossbones/prebuilt/etc/AudioFilter.csv:system/etc/AudioFilter.csv \
+    vendor/crossbones/prebuilt/etc/AudioFilterPlatform.csv:system/etc/AudioFilterPlatform.csv \
+    vendor/crossbones/prebuilt/etc/AudioFilterProduct.csv:system/etc/AudioFilterProduct.csv \
+    vendor/crossbones/prebuilt/etc/AutoVolumeControl.txt:system/etc/AutoVolumeControl.txt \
+    vendor/crossbones/prebuilt/etc/eqfilter.txt:system/etc/eqfilter.txt \
+    vendor/crossbones/prebuilt/etc/HP_Audio.csv:system/etc/HP_Audio.csv \
+    vendor/crossbones/prebuilt/etc/HP_Video.csv:system/etc/HP_Video.csv \
+    vendor/crossbones/prebuilt/etc/pvplayer.cfg:system/etc/pvplayer.cfg \
+    vendor/crossbones/prebuilt/etc/soundbooster.txt:system/etc/soundbooster.txt \
+    vendor/crossbones/prebuilt/lib/libbeatsbass.so:system/etc/lib/libbeatsbass.so \
+    vendor/crossbones/prebuilt/lib/libbundlewrapper.so:system/etc/lib/libbundlewrapper.so \
+    vendor/crossbones/prebuilt/lib/libreverbwrapper.so:system/etc/lib/libreverbwrapper.so \
+    vendor/crossbones/prebuilt/lib/libsrsfx.so:system/etc/lib/libsrsfx.so \
+    vendor/crossbones/prebuilt/lib/libvisualizer.so:system/etc/lib/libvisualizer.so \
+    vendor/crossbones/prebuilt/lib/libxloudwrapper.so:system/etc/lib/libxloudwrapper.so \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
 
