@@ -69,6 +69,9 @@ PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
 
+# T-Mobile theme engine
+include vendor/crossbones/config/themes_common.mk
+
 # Required packages
 PRODUCT_PACKAGES += \
     Camera \
