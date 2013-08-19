@@ -30,6 +30,8 @@ PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/bin/set_sysctl:system/bin/set_sysctl \
     vendor/crossbones/prebuilt/bin/sysinit:system/bin/sysinit \
     vendor/crossbones/prebuilt/etc/init.d/01sysctl:system/etc/init.d/01sysctl \
+    vendor/crossbones/prebuilt/etc/init.d/99SuperSUDaemon:system/etc/init.d/99SuperSUDaemon \
+    vendor/crossbones/prebuilt/xbin/daemonsu:system/xbin/daemonsu \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
 
