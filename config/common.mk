@@ -33,8 +33,6 @@ PRODUCT_COPY_FILES +=  \
     vendor/crossbones/prebuilt/xbin/su:system/xbin/su \
     vendor/crossbones/prebuilt/xbin/sysctl:system/xbin/sysctl
 
-# T-Mobile theme engine
-include vendor/crossbones/config/themes_common.mk
 
 # Required packages
 PRODUCT_PACKAGES += \
@@ -66,8 +64,8 @@ PRODUCT_PACKAGE_OVERLAYS += vendor/crossbones/overlay/common
 
 # Common ROM version
 ROM_VERSION_MAJOR = 2
-ROM_VERSION_MINOR = 3
-ROM_VERSION_MAINTENANCE = 3
+ROM_VERSION_MINOR = 4
+ROM_VERSION_MAINTENANCE = 0
 
 BUILD_VERSION = $(ROM_VERSION_MAJOR).$(ROM_VERSION_MINOR).$(ROM_VERSION_MAINTENANCE)
 
